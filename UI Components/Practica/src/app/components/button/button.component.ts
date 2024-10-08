@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DxButtonModule } from 'devextreme-angular';
+import notify from 'devextreme/ui/notify';
 
 @Component({
   selector: 'app-button',
@@ -10,6 +11,16 @@ import { DxButtonModule } from 'devextreme-angular';
   templateUrl: './button.component.html',
   styleUrl: './button.component.css'
 })
-export class ButtonComponent {
+export class ButtonComponent { 
+
+  mostrarMensaje = () => {
+    notify("The button was clicked by Elvis");
+}
+
+// mostrarMensaje = () => {
+//   alert('Mensaje')
+// }
 
 }
+
+
