@@ -1,0 +1,27 @@
+<dx-data-grid id="dataGrid"
+[dataSource]="employees"
+keyExpr="EmployeeID"
+[allowColumnReordering]="true">
+<dxi-column 
+dataField="FullName"
+[fixed]="true"
+></dxi-column>
+<dxi-column dataField="Position"></dxi-column>
+<dxi-column
+    dataField="BirthDate"
+    dataType="date">
+</dxi-column>
+<dxi-column
+    dataField="HireDate"
+    dataType="date">
+</dxi-column>
+<dxi-column dataField="City"></dxi-column>
+<dxi-column dataField="Country"></dxi-column>
+<dxi-column dataField="Address"></dxi-column>
+<dxi-column dataField="HomePhone"></dxi-column>
+<dxi-column dataField="PostalCode"></dxi-column>
+<dxo-column-fixing [enabled]="true"></dxo-column-fixing>
+    
+> 
+
+</dx-data-grid>
