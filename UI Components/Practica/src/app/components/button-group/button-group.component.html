@@ -1,4 +1,8 @@
 <dx-button-group
-    
+    [items]="fontStyles"
+    keyExpr="style"
+    selectionMode="multiple"
+    [(selectedItemKeys)]="selectedNames"
+    (onSelectionChanged)="logSelectionChanged($event)"
 >
 </dx-button-group>
