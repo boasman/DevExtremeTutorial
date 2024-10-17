@@ -10,11 +10,12 @@ import { DropDownButtonComponent } from "./components/DropDownButton/DropDownBut
 import { FormComponent } from "./components/form/form.component";
 import { ListComponent } from "./components/List/List.component";
 import { NumberBoxComponent } from "./components/NumberBox/NumberBox.component";
+import { PopupComponent } from "./components/Popup/Popup.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ButtonComponent, ButtonGroupComponent, CheckBoxComponent, DataGridComponent, DropDownBoxComponent, LinearChartComponent, DropDownButtonComponent, FormComponent, ListComponent, NumberBoxComponent],
+  imports: [RouterOutlet, ButtonComponent, ButtonGroupComponent, CheckBoxComponent, DataGridComponent, DropDownBoxComponent, LinearChartComponent, DropDownButtonComponent, FormComponent, ListComponent, NumberBoxComponent, PopupComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
