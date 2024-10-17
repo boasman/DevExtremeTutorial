@@ -11,11 +11,27 @@ import { FormComponent } from "./components/form/form.component";
 import { ListComponent } from "./components/List/List.component";
 import { NumberBoxComponent } from "./components/NumberBox/NumberBox.component";
 import { PopupComponent } from "./components/Popup/Popup.component";
+import { TabPanelComponent } from './components/tab-panel/tab-panel.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ButtonComponent, ButtonGroupComponent, CheckBoxComponent, DataGridComponent, DropDownBoxComponent, LinearChartComponent, DropDownButtonComponent, FormComponent, ListComponent, NumberBoxComponent, PopupComponent],
+  imports: [
+    RouterOutlet, 
+    ButtonComponent, 
+    ButtonGroupComponent, 
+    CheckBoxComponent, 
+    DataGridComponent, 
+    DropDownBoxComponent, 
+    LinearChartComponent, 
+    DropDownButtonComponent, 
+    FormComponent, 
+    ListComponent,
+    NumberBoxComponent, 
+    TabPanelComponent,
+    PopupComponent
+  ],   
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
