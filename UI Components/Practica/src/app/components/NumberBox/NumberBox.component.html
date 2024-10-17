@@ -1,0 +1,13 @@
+<dx-number-box
+[value]="261991"
+[min]="0"
+[max]="1000000"
+format="$ #,##0.##"
+[step]="5"
+[showClearButton]="true"
+[showSpinButtons]="true"
+label="Enter a sum in dollars"
+labelMode="static"
+(onValueChanged)="onValueChanged($event)"
+
+></dx-number-box>
