@@ -7,8 +7,7 @@ import { DxPopupModule } from 'devextreme-angular/ui/popup';
   standalone: true,
   imports:[
     DxPopupModule,
-    DxButtonModule
-    
+    DxButtonModule    
   ],
   templateUrl: './Popup.component.html',
   styleUrls: ['./Popup.component.css']
