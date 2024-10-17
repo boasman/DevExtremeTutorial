@@ -7,11 +7,13 @@ import { DataGridComponent } from "./components/data-grid/data-grid.component";
 import { DropDownBoxComponent } from "./components/drop-down-box/drop-down-box.component";
 import { LinearChartComponent } from "./components/LinearChart/LinearChart.component";
 import { DropDownButtonComponent } from "./components/DropDownButton/DropDownButton.component";
+import { FormComponent } from "./components/form/form.component";
+import { ListComponent } from "./components/List/List.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ButtonComponent, ButtonGroupComponent, CheckBoxComponent, DataGridComponent, DropDownBoxComponent, LinearChartComponent, DropDownButtonComponent],
+  imports: [RouterOutlet, ButtonComponent, ButtonGroupComponent, CheckBoxComponent, DataGridComponent, DropDownBoxComponent, LinearChartComponent, DropDownButtonComponent, FormComponent, ListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
