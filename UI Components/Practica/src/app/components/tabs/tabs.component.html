@@ -1,0 +1,26 @@
+<dx-tabs
+    [width]="300"
+    [selectedIndex]="1"
+    selectionMode="multiple"
+    (onItemClick)="onItemClick($event)"
+>
+    <dxi-item 
+        badge="First"
+    >
+    </dxi-item>
+    <dxi-item 
+        text="Second2"
+        
+    >
+    </dxi-item>
+    <dxi-item 
+        text="Third"
+        icon="favorites"
+    >
+    </dxi-item>
+    <dxi-item>
+      <div *dxTemplate>
+          <div id="fourth">Fourth</div>
+      </div>
+  </dxi-item>
+</dx-tabs>

@@ -12,26 +12,30 @@ import { ListComponent } from "./components/List/List.component";
 import { NumberBoxComponent } from "./components/NumberBox/NumberBox.component";
 import { PopupComponent } from "./components/Popup/Popup.component";
 import { TabPanelComponent } from './components/tab-panel/tab-panel.component';
+import { TabsComponent } from "./components/tabs/tabs.component";
+import { TagboxComponent } from "./components/tagbox/tagbox.component";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet, 
-    ButtonComponent, 
-    ButtonGroupComponent, 
-    CheckBoxComponent, 
-    DataGridComponent, 
-    DropDownBoxComponent, 
-    LinearChartComponent, 
-    DropDownButtonComponent, 
-    FormComponent, 
+    RouterOutlet,
+    ButtonComponent,
+    ButtonGroupComponent,
+    CheckBoxComponent,
+    DataGridComponent,
+    DropDownBoxComponent,
+    LinearChartComponent,
+    DropDownButtonComponent,
+    FormComponent,
     ListComponent,
-    NumberBoxComponent, 
+    NumberBoxComponent,
     TabPanelComponent,
-    PopupComponent
-  ],   
+    PopupComponent,
+    TabsComponent,
+    TagboxComponent
+],   
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
