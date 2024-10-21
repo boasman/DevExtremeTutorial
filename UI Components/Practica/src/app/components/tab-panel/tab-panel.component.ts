@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { DxFormModule, DxTextAreaModule, DxRadioGroupModule } from 'devextreme-angular';
@@ -11,7 +12,8 @@ import { DxTabPanelModule } from 'devextreme-angular/ui/tab-panel';
     DxFormModule,
     DxTextAreaModule,
     DxRadioGroupModule,
-    FormsModule
+    FormsModule,
+    CommonModule
   ],
   templateUrl: './tab-panel.component.html',
   styleUrls: ['./tab-panel.component.css']

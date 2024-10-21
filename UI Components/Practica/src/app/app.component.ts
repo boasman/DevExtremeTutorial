@@ -15,6 +15,8 @@ import { TabPanelComponent } from './components/tab-panel/tab-panel.component';
 import { TabsComponent } from "./components/tabs/tabs.component";
 import { TagboxComponent } from "./components/tagbox/tagbox.component";
 import { TextAreaComponent } from './components/TextArea/TextArea.component';
+import { TextBoxComponent } from './components/TextBox/TextBox.component';
+import { TooltipComponent } from "./components/tooltip/tooltip.component";
 
 
 @Component({
@@ -36,7 +38,9 @@ import { TextAreaComponent } from './components/TextArea/TextArea.component';
     PopupComponent,
     TabsComponent,
     TagboxComponent,
-    TextAreaComponent
+    TextAreaComponent,
+    TextBoxComponent,
+    TooltipComponent
 ],   
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

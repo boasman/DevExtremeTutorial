@@ -1,0 +1,14 @@
+<!-- <img id="image" src="/public/img/covid-6517476_1280.jpg" /> -->
+
+<dx-button id="image"
+    text="Click me!">
+</dx-button>
+
+<dx-tooltip
+    target="#image"
+    showEvent="dxhoverstart"
+    hideEvent="dxhoverend">
+    <div *dxTemplate="let data of 'content'">
+        <p>Esto es un boton</p>        
+    </div>
+</dx-tooltip>
